@@ -1,0 +1,15 @@
+{
+  "name":         "SecureSocket",
+  "version":      "0.1",
+  "description":  "Interface to secure network communication.",
+  "author":       "Joe Osborn",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       [ "SecureSocket", "SecureClient", "SecureServer", "Certificate" ],
+  "dependencies": {
+    "libs":     ["ssl", "crypto"],
+    "headers":  ["openssl/ssl.h"],
+    "protos":   [],
+    "packages": ["https://github.com/IoLanguage/Socket.git"]
+  }
+}
